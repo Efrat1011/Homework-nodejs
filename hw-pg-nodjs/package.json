@@ -1,0 +1,20 @@
+{
+  "name": "hw-pg-nodjs",
+  "version": "1.0.0",
+  "description": "home work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Efrat",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
